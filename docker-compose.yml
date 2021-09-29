@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-
   db:
     container_name: pg_container
     image: postgres
@@ -35,8 +34,6 @@ services:
 volumes:
   pg_data:
   admin:
-
-
 networks:
   db_network:
     driver: bridge
