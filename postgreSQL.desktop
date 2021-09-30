@@ -1,0 +1,9 @@
+# put this in the ~/.local/share/applications ,so we can start in the desktop quickly from Applications
+[Desktop Entry]
+Name=PostgreSQL
+Comment=PostgreSQL and pgAdmin
+Exec=/home/peter/Documents/code/postgresql/start_pg.sh
+Icon=/home/peter/Documents/code/postgresql/pg.png
+Terminal=false
+Type=Application
+Categories=Utilities
