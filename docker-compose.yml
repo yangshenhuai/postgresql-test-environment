@@ -27,7 +27,7 @@ services:
     depends_on:
       - db  
     volumes:
-      - admin:/pgadmin
+      - admin:/var/lib/pgadmin
     networks: 
       - db_network  
     tty: true    
